@@ -1,0 +1,16 @@
+name: StaffChat
+version: '${project.version}'
+main: com.bondegaard.bukkit.staffchat.Main
+api-version: 1.19
+authors: [ Bondegaard ]
+commands:
+  staffchat:
+    description: "StaffChat command"
+    usage: /staffchat
+    aliases: [sc]
+    permission: staffchat.use
+  adminchat:
+    description: "Adminchat command"
+    usage: /adminchat
+    aliases: [ac]
+    permission: adminchat.use
